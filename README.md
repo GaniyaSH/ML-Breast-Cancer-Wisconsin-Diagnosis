@@ -1,1 +1,1 @@
-# ML-Breast-Cancer-Wisconsin-Diagnosis
+# ML-Breast Cancer Wisconsin Diagnosis
