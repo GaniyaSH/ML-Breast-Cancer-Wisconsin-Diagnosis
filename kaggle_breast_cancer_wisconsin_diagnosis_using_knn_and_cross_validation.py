@@ -11,17 +11,11 @@ from sklearn.model_selection import train_test_split, cross_val_predict, cross_v
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
 data = pd.read_csv('data.csv')
-data.shape,
-
-data.head()
-
 data.drop(['Unnamed: 32', 'id'], axis = 1, inplace = True)
-
 data['diagnosis'].value_counts()
 
 x = data.drop('diagnosis', axis = 1)
 y = data['diagnosis']
-x
 
 def remove_outliers(x):
   for col in x.columns:
